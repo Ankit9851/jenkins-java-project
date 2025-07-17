@@ -11,8 +11,8 @@
   <header class="hero">
     <div class="overlay"></div>
     <div class="hero-content">
-      <h1>Hi, I'm <span>Aditya Singh</span></h1>
-      <p>DevOps Engineer | Flutter Developer</p>
+      <h1>Hi, I'm <span>Ankit Singh</span></h1>
+      <p>DevOps Engineer</p>
       <a href="#projects" class="btn">View My Work</a>
     </div>
   </header>
