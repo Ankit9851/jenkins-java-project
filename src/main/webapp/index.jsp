@@ -11,7 +11,7 @@
   <header class="hero">
     <div class="overlay"></div>
     <div class="hero-content">
-      <h1>Hi, mera naam <span>Ankit Singh</span></h1>
+      <h1>Hi, i am <span>Ankit Singh</span></h1>
       <p>DevOps Engineer</p>
       <a href="#projects" class="btn">View My Work</a>
     </div>
