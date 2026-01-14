@@ -42,7 +42,7 @@
     <build>
         <plugins>
 
-            <!-- ✅ Java compiler (safe on Java 17) -->
+            <!-- Java compiler -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -52,7 +52,7 @@
                 </configuration>
             </plugin>
 
-            <!-- ✅ WAR plugin FIX (CRITICAL) -->
+            <!-- WAR plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
@@ -62,17 +62,16 @@
                 </configuration>
             </plugin>
 
+            <!-- ✅ Sonar Maven Plugin -->
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.11.0.3922</version>
+            </plugin>
+
         </plugins>
     </build>
-   <!-- ✅ Sonar Maven Plugin (REQUIRED) -->
-        <plugin>
-            <groupId>org.sonarsource.scanner.maven</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.11.0.3922</version>
-        </plugin>
 
-    </plugins>
-</build>
     <!-- ================= DISTRIBUTION ================= -->
     <distributionManagement>
 
